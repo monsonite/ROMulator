@@ -18,7 +18,7 @@ To access the RAM data bus, I used a bidirectional buffer 74HC245. This was conn
 
 We also need a few control lines, to hold the target CPU in RESET, and access the /CE, /WE and /OE lines of the SRAM.
 
-Back in 2015, I created an Arduino sketch to mechanise these operations.
+In 2015, I created an Arduino sketch to mechanise these operations.
 
 I am revisiting it and cleaning it up so it can be general purpose.
 
